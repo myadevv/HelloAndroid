@@ -48,5 +48,13 @@ public class HelloAndroidActivity extends AppCompatActivity {
                 startActivity(myIntent);
             }
         });
+
+        Button start04Btn = (Button) findViewById(R.id.start04Btn);
+        start04Btn.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                Intent myIntent = new Intent(getApplicationContext(), ImageActivity.class);
+                startActivity(myIntent);
+            }
+        });
     }
 }

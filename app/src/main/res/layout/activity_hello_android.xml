@@ -5,7 +5,8 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    tools:context=".HelloAndroidActivity">
+    tools:context=".HelloAndroidActivity"
+    >
 
     <Button
         android:id="@+id/startBtn"
@@ -24,5 +25,36 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="전화 걸기" />
+
+    <Button
+        android:id="@+id/start04Btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="이미지 보기" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <Button
+            android:id="@+id/prevBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이전"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="다음"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
 
 </LinearLayout>
