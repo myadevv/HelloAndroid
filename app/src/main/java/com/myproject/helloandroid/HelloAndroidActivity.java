@@ -56,5 +56,21 @@ public class HelloAndroidActivity extends AppCompatActivity {
                 startActivity(myIntent);
             }
         });
+
+        Button start05Btn = (Button) findViewById(R.id.start05Btn);
+        start05Btn.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                Intent myIntent = new Intent(getApplicationContext(), LoginActivity.class);
+                startActivity(myIntent);
+            }
+        });
+
+        Button changeLayoutBtn = (Button) findViewById(R.id.changeLayoutBtn);
+        changeLayoutBtn.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                Intent myIntent = new Intent(getApplicationContext(), ChangeLayoutActivity.class);
+                startActivity(myIntent);
+            }
+        });
     }
 }

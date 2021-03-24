@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".NewActivity" />
         <activity android:name=".ImageActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ChangeLayoutActivity" />
     </application>
 
 </manifest>
